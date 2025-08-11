@@ -25,11 +25,18 @@ This methodology helps me:
 
 A classic word guessing game with ASCII art visualization. Players have 6 lives to guess a hidden word by suggesting letters. Features visual feedback with ASCII art and a large word database.
 
+### Day 8: Caesar Cipher 🔐
+
+**Location**: `ceaser-cipher/`
+
+A Python implementation of the classic Caesar Cipher encryption and decryption algorithm. Features an interactive command-line interface, custom shift values, character preservation, and ASCII art. Demonstrates fundamental cryptography concepts.
+
 ## 📈 Learning Progress
 
 ### Completed Projects:
 
 - ✅ **Day 7**: Hangman Game - Word guessing game with ASCII art
+- ✅ **Day 8**: Caesar Cipher - Classic encryption/decryption with custom shift and ASCII art
 
 ## 📁 Repository Structure
 
@@ -40,6 +47,10 @@ python-learning-projects/
 │   ├── app.py
 │   ├── hangman_art.py
 │   ├── hangman_words.py
+│   └── README.md
+├── ceaser-cipher/               # Day 8: Caesar Cipher
+│   ├── ceaser-cipher.py
+│   ├── art.py
 │   └── README.md
 ├── [future-project-folders]/   # Additional projects will be added here
 └── .gitignore                 # Git ignore file
