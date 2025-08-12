@@ -37,6 +37,12 @@ A Python implementation of the classic Caesar Cipher encryption and decryption a
 
 A command-line implementation of the classic Blackjack card game where you play against the computer dealer. Features ASCII art, realistic Blackjack rules, score tracking, and replay functionality. This was a capstone project demonstrating comprehensive Python programming skills.
 
+### Day 15: Coffee Machine ☕
+
+**Location**: `coffee-maker-v1/`
+
+A Python-based coffee machine simulator with multiple coffee types, coin payment system, and resource management. Features espresso, latte, and cappuccino options with realistic pricing, automatic change calculation, and resource tracking. Demonstrates object-oriented programming concepts and data structure management.
+
 ## 📈 Learning Progress
 
 ### Completed Projects:
@@ -44,6 +50,7 @@ A command-line implementation of the classic Blackjack card game where you play 
 - ✅ **Day 7**: Hangman Game - Word guessing game with ASCII art
 - ✅ **Day 8**: Caesar Cipher - Classic encryption/decryption with custom shift and ASCII art
 - ✅ **Day 10**: Blackjack Card Game - Command-line Blackjack with realistic rules and ASCII art
+- ✅ **Day 15**: Coffee Machine - Coffee machine simulator with payment system and resource management
 
 ## 📁 Repository Structure
 
@@ -62,6 +69,10 @@ python-learning-projects/
 ├── blackjack-card-game/         # Day 10: Blackjack Card Game
 │   ├── main.py
 │   ├── art.py
+│   └── README.md
+├── coffee-maker-v1/             # Day 15: Coffee Machine
+│   ├── coffee_machine.py
+│   ├── menu.py
 │   └── README.md
 ├── [future-project-folders]/   # Additional projects will be added here
 └── .gitignore                 # Git ignore file
