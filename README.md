@@ -31,12 +31,19 @@ A classic word guessing game with ASCII art visualization. Players have 6 lives 
 
 A Python implementation of the classic Caesar Cipher encryption and decryption algorithm. Features an interactive command-line interface, custom shift values, character preservation, and ASCII art. Demonstrates fundamental cryptography concepts.
 
+### Day 10: Blackjack Card Game 🃏
+
+**Location**: `blackjack-card-game/`
+
+A command-line implementation of the classic Blackjack card game where you play against the computer dealer. Features ASCII art, realistic Blackjack rules, score tracking, and replay functionality. This was a capstone project demonstrating comprehensive Python programming skills.
+
 ## 📈 Learning Progress
 
 ### Completed Projects:
 
 - ✅ **Day 7**: Hangman Game - Word guessing game with ASCII art
 - ✅ **Day 8**: Caesar Cipher - Classic encryption/decryption with custom shift and ASCII art
+- ✅ **Day 10**: Blackjack Card Game - Command-line Blackjack with realistic rules and ASCII art
 
 ## 📁 Repository Structure
 
@@ -50,6 +57,10 @@ python-learning-projects/
 │   └── README.md
 ├── ceaser-cipher/               # Day 8: Caesar Cipher
 │   ├── ceaser-cipher.py
+│   ├── art.py
+│   └── README.md
+├── blackjack-card-game/         # Day 10: Blackjack Card Game
+│   ├── main.py
 │   ├── art.py
 │   └── README.md
 ├── [future-project-folders]/   # Additional projects will be added here
