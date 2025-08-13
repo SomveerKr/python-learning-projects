@@ -43,6 +43,12 @@ A command-line implementation of the classic Blackjack card game where you play 
 
 A Python-based coffee machine simulator with multiple coffee types, coin payment system, and resource management. Features espresso, latte, and cappuccino options with realistic pricing, automatic change calculation, and resource tracking. Demonstrates object-oriented programming concepts and data structure management.
 
+### Day 16: Coffee Machine v2 (OOP) ☕
+
+**Location**: `coffee-maker-v2/`
+
+An enhanced coffee machine simulator built using Object-Oriented Programming principles. Features modular design with separate classes for CoffeeMaker, Menu, and MoneyMachine. Demonstrates class design, encapsulation, object interaction, and proper separation of concerns in a real-world application.
+
 ## 📈 Learning Progress
 
 ### Completed Projects:
@@ -51,6 +57,7 @@ A Python-based coffee machine simulator with multiple coffee types, coin payment
 - ✅ **Day 8**: Caesar Cipher - Classic encryption/decryption with custom shift and ASCII art
 - ✅ **Day 10**: Blackjack Card Game - Command-line Blackjack with realistic rules and ASCII art
 - ✅ **Day 15**: Coffee Machine - Coffee machine simulator with payment system and resource management
+- ✅ **Day 16**: Coffee Machine v2 (OOP) - Enhanced OOP-based coffee machine with modular class design
 
 ## 📁 Repository Structure
 
@@ -73,6 +80,12 @@ python-learning-projects/
 ├── coffee-maker-v1/             # Day 15: Coffee Machine
 │   ├── coffee_machine.py
 │   ├── menu.py
+│   └── README.md
+├── coffee-maker-v2/             # Day 16: Coffee Machine v2 (OOP)
+│   ├── main.py
+│   ├── coffee_maker.py
+│   ├── menu.py
+│   ├── money_machine.py
 │   └── README.md
 ├── [future-project-folders]/   # Additional projects will be added here
 └── .gitignore                 # Git ignore file
