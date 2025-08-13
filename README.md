@@ -49,6 +49,12 @@ A Python-based coffee machine simulator with multiple coffee types, coin payment
 
 An enhanced coffee machine simulator built using Object-Oriented Programming principles. Features modular design with separate classes for CoffeeMaker, Menu, and MoneyMachine. Demonstrates class design, encapsulation, object interaction, and proper separation of concerns in a real-world application.
 
+### Day 17: Quiz Game 🧠
+
+**Location**: `quiz-game/`
+
+A command-line quiz application with True/False questions and real-time score tracking. Features modular OOP design with separate classes for Question, QuizBrain, and data management. Demonstrates class implementation, data structures, user input handling, and interactive game logic.
+
 ## 📈 Learning Progress
 
 ### Completed Projects:
@@ -58,6 +64,7 @@ An enhanced coffee machine simulator built using Object-Oriented Programming pri
 - ✅ **Day 10**: Blackjack Card Game - Command-line Blackjack with realistic rules and ASCII art
 - ✅ **Day 15**: Coffee Machine - Coffee machine simulator with payment system and resource management
 - ✅ **Day 16**: Coffee Machine v2 (OOP) - Enhanced OOP-based coffee machine with modular class design
+- ✅ **Day 17**: Quiz Game - Interactive quiz application with OOP design and score tracking
 
 ## 📁 Repository Structure
 
@@ -86,6 +93,12 @@ python-learning-projects/
 │   ├── coffee_maker.py
 │   ├── menu.py
 │   ├── money_machine.py
+│   └── README.md
+├── quiz-game/                   # Day 17: Quiz Game
+│   ├── main.py
+│   ├── data.py
+│   ├── question_model.py
+│   ├── quiz_brain.py
 │   └── README.md
 ├── [future-project-folders]/   # Additional projects will be added here
 └── .gitignore                 # Git ignore file
