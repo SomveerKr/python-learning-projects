@@ -61,6 +61,12 @@ A command-line quiz application with True/False questions and real-time score tr
 
 A classic Snake game implementation using Python's Turtle graphics library. Features smooth movement, directional control with arrow keys, collision prevention, and responsive controls. Demonstrates object-oriented programming, game loop implementation, event handling, and graphics programming concepts.
 
+### Day 21: Snake Game v2 (Enhanced) 🐍
+
+**Location**: `snake-game-v2/`
+
+An enhanced Snake game with complete gameplay mechanics including food spawning, score tracking, high score persistence, and collision detection. Features modular OOP design with separate classes for Snake, Food, and Scoreboard. Demonstrates class inheritance, file I/O, and advanced game development concepts.
+
 ## 📈 Learning Progress
 
 ### Completed Projects:
@@ -72,6 +78,7 @@ A classic Snake game implementation using Python's Turtle graphics library. Feat
 - ✅ **Day 16**: Coffee Machine v2 (OOP) - Enhanced OOP-based coffee machine with modular class design
 - ✅ **Day 17**: Quiz Game - Interactive quiz application with OOP design and score tracking
 - ✅ **Day 20**: Snake Game - Classic Snake game with Turtle graphics and OOP implementation
+- ✅ **Day 21**: Snake Game v2 (Enhanced) - Complete Snake game with food, scoring, and file persistence
 
 ## 📁 Repository Structure
 
@@ -110,6 +117,13 @@ python-learning-projects/
 ├── snake-game-v1/               # Day 20: Snake Game
 │   ├── main.py
 │   ├── snake.py
+│   └── README.md
+├── snake-game-v2/               # Day 21: Snake Game v2 (Enhanced)
+│   ├── main.py
+│   ├── snake.py
+│   ├── food.py
+│   ├── scoreboard.py
+│   ├── high_score.txt
 │   └── README.md
 ├── [future-project-folders]/   # Additional projects will be added here
 └── .gitignore                 # Git ignore file
