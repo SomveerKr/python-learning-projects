@@ -55,6 +55,12 @@ An enhanced coffee machine simulator built using Object-Oriented Programming pri
 
 A command-line quiz application with True/False questions and real-time score tracking. Features modular OOP design with separate classes for Question, QuizBrain, and data management. Demonstrates class implementation, data structures, user input handling, and interactive game logic.
 
+### Day 20: Snake Game 🐍
+
+**Location**: `snake-game-v1/`
+
+A classic Snake game implementation using Python's Turtle graphics library. Features smooth movement, directional control with arrow keys, collision prevention, and responsive controls. Demonstrates object-oriented programming, game loop implementation, event handling, and graphics programming concepts.
+
 ## 📈 Learning Progress
 
 ### Completed Projects:
@@ -65,6 +71,7 @@ A command-line quiz application with True/False questions and real-time score tr
 - ✅ **Day 15**: Coffee Machine - Coffee machine simulator with payment system and resource management
 - ✅ **Day 16**: Coffee Machine v2 (OOP) - Enhanced OOP-based coffee machine with modular class design
 - ✅ **Day 17**: Quiz Game - Interactive quiz application with OOP design and score tracking
+- ✅ **Day 20**: Snake Game - Classic Snake game with Turtle graphics and OOP implementation
 
 ## 📁 Repository Structure
 
@@ -99,6 +106,10 @@ python-learning-projects/
 │   ├── data.py
 │   ├── question_model.py
 │   ├── quiz_brain.py
+│   └── README.md
+├── snake-game-v1/               # Day 20: Snake Game
+│   ├── main.py
+│   ├── snake.py
 │   └── README.md
 ├── [future-project-folders]/   # Additional projects will be added here
 └── .gitignore                 # Git ignore file
