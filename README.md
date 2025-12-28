@@ -67,6 +67,12 @@ A classic Snake game implementation using Python's Turtle graphics library. Feat
 
 An enhanced Snake game with complete gameplay mechanics including food spawning, score tracking, high score persistence, and collision detection. Features modular OOP design with separate classes for Snake, Food, and Scoreboard. Demonstrates class inheritance, file I/O, and advanced game development concepts.
 
+### Day 22: Pong Game 🏓
+
+**Location**: `pong-game/`
+
+A classic two-player Pong game built using Python's Turtle graphics library. Features real-time ball and paddle movement, score tracking, and local multiplayer gameplay. Demonstrates OOP design with separate classes for Ball, Paddle, and Scoreboard, along with collision detection and game physics implementation.
+
 ## 📈 Learning Progress
 
 ### Completed Projects:
@@ -79,6 +85,7 @@ An enhanced Snake game with complete gameplay mechanics including food spawning,
 - ✅ **Day 17**: Quiz Game - Interactive quiz application with OOP design and score tracking
 - ✅ **Day 20**: Snake Game - Classic Snake game with Turtle graphics and OOP implementation
 - ✅ **Day 21**: Snake Game v2 (Enhanced) - Complete Snake game with food, scoring, and file persistence
+- ✅ **Day 22**: Pong Game - Classic two-player Pong game with Turtle graphics and collision detection
 
 ## 📁 Repository Structure
 
@@ -124,6 +131,12 @@ python-learning-projects/
 │   ├── food.py
 │   ├── scoreboard.py
 │   ├── high_score.txt
+│   └── README.md
+├── pong-game/                   # Day 22: Pong Game
+│   ├── main.py
+│   ├── ball.py
+│   ├── paddle.py
+│   ├── scoreboard.py
 │   └── README.md
 ├── [future-project-folders]/   # Additional projects will be added here
 └── .gitignore                 # Git ignore file
