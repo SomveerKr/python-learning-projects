@@ -73,7 +73,13 @@ An enhanced Snake game with complete gameplay mechanics including food spawning,
 
 A classic two-player Pong game built using Python's Turtle graphics library. Features real-time ball and paddle movement, score tracking, and local multiplayer gameplay. Demonstrates OOP design with separate classes for Ball, Paddle, and Scoreboard, along with collision detection and game physics implementation.
 
-## 📈 Learning Progress
+### Day 23: Turtle Crossing Game �
+
+**Location**: `turtle-crossing-game/`
+
+A Frogger-inspired arcade game where the player helps a turtle cross a busy road filled with moving cars. Features level progression with increasing difficulty, collision detection, and score tracking. Demonstrates OOP design with separate classes for Player, CarManager, and Scoreboard, along with game state management and dynamic difficulty scaling.
+
+## �📈 Learning Progress
 
 ### Completed Projects:
 
@@ -86,6 +92,7 @@ A classic two-player Pong game built using Python's Turtle graphics library. Fea
 - ✅ **Day 20**: Snake Game - Classic Snake game with Turtle graphics and OOP implementation
 - ✅ **Day 21**: Snake Game v2 (Enhanced) - Complete Snake game with food, scoring, and file persistence
 - ✅ **Day 22**: Pong Game - Classic two-player Pong game with Turtle graphics and collision detection
+- ✅ **Day 23**: Turtle Crossing Game - Frogger-inspired arcade game with level progression and collision detection
 
 ## 📁 Repository Structure
 
@@ -136,6 +143,12 @@ python-learning-projects/
 │   ├── main.py
 │   ├── ball.py
 │   ├── paddle.py
+│   ├── scoreboard.py
+│   └── README.md
+├── turtle-crossing-game/        # Day 23: Turtle Crossing Game
+│   ├── main.py
+│   ├── player.py
+│   ├── car_manager.py
 │   ├── scoreboard.py
 │   └── README.md
 ├── [future-project-folders]/   # Additional projects will be added here
