@@ -73,13 +73,19 @@ An enhanced Snake game with complete gameplay mechanics including food spawning,
 
 A classic two-player Pong game built using Python's Turtle graphics library. Features real-time ball and paddle movement, score tracking, and local multiplayer gameplay. Demonstrates OOP design with separate classes for Ball, Paddle, and Scoreboard, along with collision detection and game physics implementation.
 
-### Day 23: Turtle Crossing Game �
+### Day 23: Turtle Crossing Game 🐢
 
 **Location**: `turtle-crossing-game/`
 
 A Frogger-inspired arcade game where the player helps a turtle cross a busy road filled with moving cars. Features level progression with increasing difficulty, collision detection, and score tracking. Demonstrates OOP design with separate classes for Player, CarManager, and Scoreboard, along with game state management and dynamic difficulty scaling.
 
-## �📈 Learning Progress
+### Day 25: India States Guessing Game 🗺️
+
+**Location**: `states-guessing-game/`
+
+An interactive geography game where players guess the names of Indian states and union territories. This is a modified version of the US States guessing game from the course, adapted for India. Features visual feedback on a map using Turtle graphics, score tracking out of 36 states/UTs, case-insensitive input handling, and CSV file generation for missed states. Demonstrates data manipulation with pandas, Turtle graphics, file I/O, and interactive game design.
+
+## 📈 Learning Progress
 
 ### Completed Projects:
 
@@ -93,6 +99,7 @@ A Frogger-inspired arcade game where the player helps a turtle cross a busy road
 - ✅ **Day 21**: Snake Game v2 (Enhanced) - Complete Snake game with food, scoring, and file persistence
 - ✅ **Day 22**: Pong Game - Classic two-player Pong game with Turtle graphics and collision detection
 - ✅ **Day 23**: Turtle Crossing Game - Frogger-inspired arcade game with level progression and collision detection
+- ✅ **Day 25**: India States Guessing Game - Interactive geography game adapted from US States version, featuring Turtle graphics and pandas data manipulation
 
 ## 📁 Repository Structure
 
@@ -151,6 +158,12 @@ python-learning-projects/
 │   ├── car_manager.py
 │   ├── scoreboard.py
 │   └── README.md
+├── states-guessing-game/        # Day 25: India States Guessing Game
+│   ├── main.py
+│   ├── states_uts.csv
+│   ├── India.gif
+│   ├── missed_states.csv
+│   └── Readme.md
 ├── [future-project-folders]/   # Additional projects will be added here
 └── .gitignore                 # Git ignore file
 ```
