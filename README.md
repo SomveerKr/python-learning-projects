@@ -23,67 +23,73 @@ This methodology helps me:
 
 **Location**: `hangman-game/`
 
-A classic word guessing game with ASCII art visualization. Players have 6 lives to guess a hidden word by suggesting letters. Features visual feedback with ASCII art and a large word database.
+A classic word guessing game with ASCII art visualization. Players have 6 lives to guess a hidden word by suggesting letters one at a time.
 
 ### Day 8: Caesar Cipher 🔐
 
 **Location**: `ceaser-cipher/`
 
-A Python implementation of the classic Caesar Cipher encryption and decryption algorithm. Features an interactive command-line interface, custom shift values, character preservation, and ASCII art. Demonstrates fundamental cryptography concepts.
+A Python implementation of the classic Caesar Cipher encryption and decryption algorithm. Features interactive CLI, custom shift values, and ASCII art.
 
 ### Day 10: Blackjack Card Game 🃏
 
 **Location**: `blackjack-card-game/`
 
-A command-line implementation of the classic Blackjack card game where you play against the computer dealer. Features ASCII art, realistic Blackjack rules, score tracking, and replay functionality. This was a capstone project demonstrating comprehensive Python programming skills.
+A command-line implementation of the classic Blackjack card game where you play against the computer dealer. Features ASCII art, realistic Blackjack rules, score tracking, and replay functionality.
 
 ### Day 15: Coffee Machine ☕
 
 **Location**: `coffee-maker-v1/`
 
-A Python-based coffee machine simulator with multiple coffee types, coin payment system, and resource management. Features espresso, latte, and cappuccino options with realistic pricing, automatic change calculation, and resource tracking. Demonstrates object-oriented programming concepts and data structure management.
+A Python-based coffee machine simulator with multiple coffee types, coin payment system, and resource management. Features espresso, latte, and cappuccino options with realistic pricing and automatic change calculation.
 
 ### Day 16: Coffee Machine v2 (OOP) ☕
 
 **Location**: `coffee-maker-v2/`
 
-An enhanced coffee machine simulator built using Object-Oriented Programming principles. Features modular design with separate classes for CoffeeMaker, Menu, and MoneyMachine. Demonstrates class design, encapsulation, object interaction, and proper separation of concerns in a real-world application.
+An enhanced coffee machine simulator built using Object-Oriented Programming principles. Features modular design with separate classes for CoffeeMaker, Menu, and MoneyMachine.
 
 ### Day 17: Quiz Game 🧠
 
 **Location**: `quiz-game/`
 
-A command-line quiz application with True/False questions and real-time score tracking. Features modular OOP design with separate classes for Question, QuizBrain, and data management. Demonstrates class implementation, data structures, user input handling, and interactive game logic.
+A command-line quiz application with True/False questions and real-time score tracking. Features modular OOP design with separate classes for Question, QuizBrain, and data management.
 
 ### Day 20: Snake Game 🐍
 
 **Location**: `snake-game-v1/`
 
-A classic Snake game implementation using Python's Turtle graphics library. Features smooth movement, directional control with arrow keys, collision prevention, and responsive controls. Demonstrates object-oriented programming, game loop implementation, event handling, and graphics programming concepts.
+A classic Snake game implementation using Python's Turtle graphics library. Features smooth movement, directional control with arrow keys, and collision prevention.
 
 ### Day 21: Snake Game v2 (Enhanced) 🐍
 
 **Location**: `snake-game-v2/`
 
-An enhanced Snake game with complete gameplay mechanics including food spawning, score tracking, high score persistence, and collision detection. Features modular OOP design with separate classes for Snake, Food, and Scoreboard. Demonstrates class inheritance, file I/O, and advanced game development concepts.
+An enhanced Snake game with complete gameplay mechanics including food spawning, score tracking, high score persistence, and collision detection. Features modular OOP design with separate classes for Snake, Food, and Scoreboard.
 
 ### Day 22: Pong Game 🏓
 
 **Location**: `pong-game/`
 
-A classic two-player Pong game built using Python's Turtle graphics library. Features real-time ball and paddle movement, score tracking, and local multiplayer gameplay. Demonstrates OOP design with separate classes for Ball, Paddle, and Scoreboard, along with collision detection and game physics implementation.
+A classic two-player Pong game built using Python's Turtle graphics library. Features real-time ball and paddle movement, score tracking, and local multiplayer gameplay with collision detection.
 
 ### Day 23: Turtle Crossing Game 🐢
 
 **Location**: `turtle-crossing-game/`
 
-A Frogger-inspired arcade game where the player helps a turtle cross a busy road filled with moving cars. Features level progression with increasing difficulty, collision detection, and score tracking. Demonstrates OOP design with separate classes for Player, CarManager, and Scoreboard, along with game state management and dynamic difficulty scaling.
+A Frogger-inspired arcade game where the player helps a turtle cross a busy road filled with moving cars. Features level progression with increasing difficulty, collision detection, and score tracking.
 
 ### Day 25: India States Guessing Game 🗺️
 
 **Location**: `states-guessing-game/`
 
-An interactive geography game where players guess the names of Indian states and union territories. This is a modified version of the US States guessing game from the course, adapted for India. Features visual feedback on a map using Turtle graphics, score tracking out of 36 states/UTs, case-insensitive input handling, and CSV file generation for missed states. Demonstrates data manipulation with pandas, Turtle graphics, file I/O, and interactive game design.
+An interactive geography game where players guess Indian states and union territories on a map. Features visual feedback using Turtle graphics, score tracking out of 36 states/UTs, and CSV file generation for missed states.
+
+### Day 31: Flash Card App 🎴
+
+**Location**: `flash-card/`
+
+A French-English flashcard application built with Tkinter featuring auto-flipping cards, progress tracking, and spaced repetition. Demonstrates GUI development, Pandas CSV handling, exception handling, and state management.
 
 ## 📈 Learning Progress
 
@@ -100,6 +106,7 @@ An interactive geography game where players guess the names of Indian states and
 - ✅ **Day 22**: Pong Game - Classic two-player Pong game with Turtle graphics and collision detection
 - ✅ **Day 23**: Turtle Crossing Game - Frogger-inspired arcade game with level progression and collision detection
 - ✅ **Day 25**: India States Guessing Game - Interactive geography game adapted from US States version, featuring Turtle graphics and pandas data manipulation
+- ✅ **Day 31**: Flash Card App - French-English flashcard application with Tkinter GUI, auto-flip cards, and progress tracking
 
 ## 📁 Repository Structure
 
@@ -164,6 +171,13 @@ python-learning-projects/
 │   ├── India.gif
 │   ├── missed_states.csv
 │   └── Readme.md
+├── flash-card/                  # Day 31: Flash Card App
+│   ├── main.py
+│   ├── data/
+│   │   ├── french_words.csv
+│   │   └── words_to_learn.csv
+│   ├── images/
+│   └── README.md
 ├── [future-project-folders]/   # Additional projects will be added here
 └── .gitignore                 # Git ignore file
 ```
