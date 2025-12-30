@@ -91,6 +91,12 @@ An interactive geography game where players guess Indian states and union territ
 
 A French-English flashcard application built with Tkinter featuring auto-flipping cards, progress tracking, and spaced repetition. Demonstrates GUI development, Pandas CSV handling, exception handling, and state management.
 
+### Day 32: Birthday Wisher 🎂
+
+**Location**: `birthday_wisher/`
+
+An automated birthday email sender that checks a CSV database daily and sends personalized birthday wishes using random letter templates. Features Gmail SMTP integration, environment variable security, and pandas CSV data management.
+
 ## 📈 Learning Progress
 
 ### Completed Projects:
@@ -107,6 +113,7 @@ A French-English flashcard application built with Tkinter featuring auto-flippin
 - ✅ **Day 23**: Turtle Crossing Game - Frogger-inspired arcade game with level progression and collision detection
 - ✅ **Day 25**: India States Guessing Game - Interactive geography game adapted from US States version, featuring Turtle graphics and pandas data manipulation
 - ✅ **Day 31**: Flash Card App - French-English flashcard application with Tkinter GUI, auto-flip cards, and progress tracking
+- ✅ **Day 32**: Birthday Wisher - Automated birthday email sender with personalized templates and Gmail SMTP integration
 
 ## 📁 Repository Structure
 
@@ -177,6 +184,12 @@ python-learning-projects/
 │   │   ├── french_words.csv
 │   │   └── words_to_learn.csv
 │   ├── images/
+│   └── README.md
+├── birthday_wisher/             # Day 32: Birthday Wisher
+│   ├── main.py
+│   ├── birthdays.csv
+│   ├── .env
+│   ├── letter_templates/
 │   └── README.md
 ├── [future-project-folders]/   # Additional projects will be added here
 └── .gitignore                 # Git ignore file
