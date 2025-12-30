@@ -97,6 +97,12 @@ A French-English flashcard application built with Tkinter featuring auto-flippin
 
 An automated birthday email sender that checks a CSV database daily and sends personalized birthday wishes using random letter templates. Features Gmail SMTP integration, environment variable security, and pandas CSV data management.
 
+### Day 34: Quizzler App 🧠
+
+**Location**: `quizzler-app/`
+
+A GUI-based True/False quiz application built with Tkinter that fetches computer science trivia questions from the Open Trivia Database API. Features real-time score tracking, visual feedback with color-coded answers, and object-oriented design with API integration.
+
 ## 📈 Learning Progress
 
 ### Completed Projects:
@@ -114,6 +120,7 @@ An automated birthday email sender that checks a CSV database daily and sends pe
 - ✅ **Day 25**: India States Guessing Game - Interactive geography game adapted from US States version, featuring Turtle graphics and pandas data manipulation
 - ✅ **Day 31**: Flash Card App - French-English flashcard application with Tkinter GUI, auto-flip cards, and progress tracking
 - ✅ **Day 32**: Birthday Wisher - Automated birthday email sender with personalized templates and Gmail SMTP integration
+- ✅ **Day 34**: Quizzler App - GUI-based quiz application with API integration, Tkinter interface, and real-time trivia questions
 
 ## 📁 Repository Structure
 
@@ -190,6 +197,14 @@ python-learning-projects/
 │   ├── birthdays.csv
 │   ├── .env
 │   ├── letter_templates/
+│   └── README.md
+├── quizzler-app/                # Day 34: Quizzler App
+│   ├── main.py
+│   ├── data.py
+│   ├── question_model.py
+│   ├── quiz_brain.py
+│   ├── ui.py
+│   ├── images/
 │   └── README.md
 ├── [future-project-folders]/   # Additional projects will be added here
 └── .gitignore                 # Git ignore file
