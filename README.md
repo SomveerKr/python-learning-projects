@@ -109,7 +109,13 @@ A GUI-based True/False quiz application built with Tkinter that fetches computer
 
 An automated stock monitoring system that tracks Tesla (TSLA) stock prices and sends SMS alerts via Twilio when price changes by 3% or more. Features Alpha Vantage API for stock data, NewsAPI for relevant articles, and environment variable security for API credentials.
 
-## 📈 Learning Progress
+### Day 37: Habit Tracker �
+
+**Location**: `habit-tracker/`
+
+A Python-based habit tracking application using the Pixela API to create visual graphs of daily habits. Features user management, graph creation, daily logging, data updates, and visual streak tracking through beautiful pixel-based graphs.
+
+## �📈 Learning Progress
 
 ### Completed Projects:
 
@@ -128,6 +134,7 @@ An automated stock monitoring system that tracks Tesla (TSLA) stock prices and s
 - ✅ **Day 32**: Birthday Wisher - Automated birthday email sender with personalized templates and Gmail SMTP integration
 - ✅ **Day 34**: Quizzler App - GUI-based quiz application with API integration, Tkinter interface, and real-time trivia questions
 - ✅ **Day 36**: Stock News Alert - Automated stock monitoring system with SMS alerts via Twilio and multi-API integration
+- ✅ **Day 37**: Habit Tracker - Pixela API-based habit tracking application with visual graphs, daily logging, and streak tracking
 
 ## 📁 Repository Structure
 
@@ -216,6 +223,11 @@ python-learning-projects/
 ├── stock-news-alert/            # Day 36: Stock News Alert
 │   ├── main.py
 │   ├── .env
+│   └── README.md
+├── habit-tracker/               # Day 37: Habit Tracker
+│   ├── main.py
+│   ├── .env
+│   ├── .gitignore
 │   └── README.md
 ├── [future-project-folders]/   # Additional projects will be added here
 └── .gitignore                 # Git ignore file
