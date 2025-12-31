@@ -103,6 +103,12 @@ An automated birthday email sender that checks a CSV database daily and sends pe
 
 A GUI-based True/False quiz application built with Tkinter that fetches computer science trivia questions from the Open Trivia Database API. Features real-time score tracking, visual feedback with color-coded answers, and object-oriented design with API integration.
 
+### Day 36: Stock News Alert 📈
+
+**Location**: `stock-news-alert/`
+
+An automated stock monitoring system that tracks Tesla (TSLA) stock prices and sends SMS alerts via Twilio when price changes by 3% or more. Features Alpha Vantage API for stock data, NewsAPI for relevant articles, and environment variable security for API credentials.
+
 ## 📈 Learning Progress
 
 ### Completed Projects:
@@ -121,6 +127,7 @@ A GUI-based True/False quiz application built with Tkinter that fetches computer
 - ✅ **Day 31**: Flash Card App - French-English flashcard application with Tkinter GUI, auto-flip cards, and progress tracking
 - ✅ **Day 32**: Birthday Wisher - Automated birthday email sender with personalized templates and Gmail SMTP integration
 - ✅ **Day 34**: Quizzler App - GUI-based quiz application with API integration, Tkinter interface, and real-time trivia questions
+- ✅ **Day 36**: Stock News Alert - Automated stock monitoring system with SMS alerts via Twilio and multi-API integration
 
 ## 📁 Repository Structure
 
@@ -205,6 +212,10 @@ python-learning-projects/
 │   ├── quiz_brain.py
 │   ├── ui.py
 │   ├── images/
+│   └── README.md
+├── stock-news-alert/            # Day 36: Stock News Alert
+│   ├── main.py
+│   ├── .env
 │   └── README.md
 ├── [future-project-folders]/   # Additional projects will be added here
 └── .gitignore                 # Git ignore file
