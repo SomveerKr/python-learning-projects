@@ -135,6 +135,7 @@ A Python-based habit tracking application using the Pixela API to create visual 
 - ✅ **Day 34**: Quizzler App - GUI-based quiz application with API integration, Tkinter interface, and real-time trivia questions
 - ✅ **Day 36**: Stock News Alert - Automated stock monitoring system with SMS alerts via Twilio and multi-API integration
 - ✅ **Day 37**: Habit Tracker - Pixela API-based habit tracking application with visual graphs, daily logging, and streak tracking
+- ✅ **Day 38**: Nutrition/Exercise Tracker - Workout tracking with natural language processing, Nutritionix API integration, and automated Google Sheets logging
 
 ## 📁 Repository Structure
 
@@ -225,6 +226,11 @@ python-learning-projects/
 │   ├── .env
 │   └── README.md
 ├── habit-tracker/               # Day 37: Habit Tracker
+│   ├── main.py
+│   ├── .env
+│   ├── .gitignore
+│   └── README.md
+├── nutritionix-api/            # Day 38: Nutrition/Exercise Tracker
 │   ├── main.py
 │   ├── .env
 │   ├── .gitignore
