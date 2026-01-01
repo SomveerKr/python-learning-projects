@@ -35,19 +35,19 @@ A Python implementation of the classic Caesar Cipher encryption and decryption a
 
 **Location**: `blackjack-card-game/`
 
-A command-line implementation of the classic Blackjack card game where you play against the computer dealer. Features ASCII art, realistic Blackjack rules, score tracking, and replay functionality.
+Command-line Blackjack game played against a computer dealer with realistic rules. Features ASCII art, score tracking, and replay functionality.
 
 ### Day 15: Coffee Machine ☕
 
 **Location**: `coffee-maker-v1/`
 
-A Python-based coffee machine simulator with multiple coffee types, coin payment system, and resource management. Features espresso, latte, and cappuccino options with realistic pricing and automatic change calculation.
+Coffee machine simulator with multiple drinks, payment system, and resource management. Features espresso, latte, and cappuccino with realistic pricing.
 
 ### Day 16: Coffee Machine v2 (OOP) ☕
 
 **Location**: `coffee-maker-v2/`
 
-An enhanced coffee machine simulator built using Object-Oriented Programming principles. Features modular design with separate classes for CoffeeMaker, Menu, and MoneyMachine.
+Enhanced OOP-based coffee machine simulator with modular design. Features separate classes for CoffeeMaker, Menu, and MoneyMachine.
 
 ### Day 17: Quiz Game 🧠
 
@@ -65,7 +65,7 @@ A classic Snake game implementation using Python's Turtle graphics library. Feat
 
 **Location**: `snake-game-v2/`
 
-An enhanced Snake game with complete gameplay mechanics including food spawning, score tracking, high score persistence, and collision detection. Features modular OOP design with separate classes for Snake, Food, and Scoreboard.
+Enhanced Snake game with food spawning, score tracking, and high score persistence. Built with modular OOP design separating game logic elements.
 
 ### Day 22: Pong Game 🏓
 
@@ -83,7 +83,7 @@ A Frogger-inspired arcade game where the player helps a turtle cross a busy road
 
 **Location**: `states-guessing-game/`
 
-An interactive geography game where players guess Indian states and union territories on a map. Features visual feedback using Turtle graphics, score tracking out of 36 states/UTs, and CSV file generation for missed states.
+Interactive geography game to guess Indian states on a map with visual feedback. Tracks scores and generates a CSV file of missed states for learning.
 
 ### Day 31: Flash Card App 🎴
 
@@ -95,27 +95,33 @@ A French-English flashcard application built with Tkinter featuring auto-flippin
 
 **Location**: `birthday_wisher/`
 
-An automated birthday email sender that checks a CSV database daily and sends personalized birthday wishes using random letter templates. Features Gmail SMTP integration, environment variable security, and pandas CSV data management.
+Automated birthday email sender using CSV data and personalized templates. Features Gmail SMTP integration and secure environment variable management.
 
 ### Day 34: Quizzler App 🧠
 
 **Location**: `quizzler-app/`
 
-A GUI-based True/False quiz application built with Tkinter that fetches computer science trivia questions from the Open Trivia Database API. Features real-time score tracking, visual feedback with color-coded answers, and object-oriented design with API integration.
+GUI-based True/False quiz app using Tkinter and Open Trivia Database API. Features real-time scoring, visual feedback, and OOP design.
 
 ### Day 36: Stock News Alert 📈
 
 **Location**: `stock-news-alert/`
 
-An automated stock monitoring system that tracks Tesla (TSLA) stock prices and sends SMS alerts via Twilio when price changes by 3% or more. Features Alpha Vantage API for stock data, NewsAPI for relevant articles, and environment variable security for API credentials.
+Automated stock monitor tracking TSLA prices to send SMS alerts via Twilio on significant changes. Uses Alpha Vantage and NewsAPI for data.
 
-### Day 37: Habit Tracker �
+### Day 37: Habit Tracker 📊
 
 **Location**: `habit-tracker/`
 
-A Python-based habit tracking application using the Pixela API to create visual graphs of daily habits. Features user management, graph creation, daily logging, data updates, and visual streak tracking through beautiful pixel-based graphs.
+Habit tracking application using Pixela API to create visual activity graphs. Features user management, daily logging, and streak tracking.
 
-## �📈 Learning Progress
+### Day 38: Nutrition/Exercise Tracker 💪
+
+**Location**: `nutritionix-api/`
+
+Workout logger using Natural Language Processing to track exercises in Google Sheets. Input activities in plain text to auto-calculate calories and duration.
+
+## 📈 Learning Progress
 
 ### Completed Projects:
 
@@ -204,8 +210,8 @@ python-learning-projects/
 │   ├── main.py
 │   ├── data/
 │   │   ├── french_words.csv
-│   │   └── words_to_learn.csv
-│   ├── images/
+│   │   ├── words_to_learn.csv
+│   │   ├── images/
 │   └── README.md
 ├── birthday_wisher/             # Day 32: Birthday Wisher
 │   ├── main.py
