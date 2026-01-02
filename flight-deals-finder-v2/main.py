@@ -34,7 +34,7 @@ for city in destination_cities:
         time.sleep(2)
 
 # ==================== Search for Flights ==================== 
-
+# ==================== Search for direct flights  ====================
 for city in destination_cities: 
     print(f"Getting flights for {city['city']}...")      
     flights_data = flight_search.search_flights_offers(
@@ -43,9 +43,41 @@ for city in destination_cities:
         from_date=start_date, 
         to_date=end_date)
     cheapest_flight = find_cheapest_flight(flights_data)
+    print(f"{city['city']}: £{cheapest_flight.price}")
+    # Slowing down requests to avoid rate limit
+    time.sleep(2)
+
+    # ==================== Search for indirect flight if N/A ====================
+
+    if cheapest_flight.price == "N/A":
+        print(f"No direct flight to {city['city']}. Looking for indirect flights...")
+        stopover_flights = flight_search.search_flights_offers(
+            FROM_CITY_IATA,
+            city["iataCode"],
+            from_date=start_date, 
+            to_date=end_date,
+            is_direct=False
+        )
+        cheapest_flight = find_cheapest_flight(stopover_flights)
+        print(f"Cheapest indirect flight price is: £{cheapest_flight.price}")
+
+
     if cheapest_flight.price != "N/A" and cheapest_flight.price < city["lowestPrice"]:
         print(f"Lower price flight found to {city['city']}!")
 
         message_body = f"Low Price Alert!\nOnly {cheapest_flight.price} to fly from {cheapest_flight.origin_airport} to {cheapest_flight.destination_airport}, on {cheapest_flight.out_date} until {cheapest_flight.return_date}"
 
-        notification_manager.send_sms(message_body)
+
+
+        if cheapest_flight.stops == 0:
+            message = f"Low price alert! Only USD {cheapest_flight.price} to fly direct "\
+                      f"from {cheapest_flight.origin_airport} to {cheapest_flight.destination_airport}, "\
+                      f"on {cheapest_flight.out_date} until {cheapest_flight.return_date}."
+        else:
+            message = f"Low price alert! Only USD {cheapest_flight.price} to fly "\
+                      f"from {cheapest_flight.origin_airport} to {cheapest_flight.destination_airport}, "\
+                      f"with {cheapest_flight.stops} stop(s) "\
+                      f"departing on {cheapest_flight.out_date} and returning on {cheapest_flight.return_date}."
+
+        print(f"Check your email. Lower price flight found to {city['city']}!")
+        # notification_manager.send_sms(message_body)

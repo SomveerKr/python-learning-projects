@@ -127,6 +127,12 @@ Workout logger using Natural Language Processing to track exercises in Google Sh
 
 A flight deal tracker that monitors prices and sends SMS/WhatsApp alerts when low fares are found. Integrates Amadeus for flight data, Google Sheets for destination tracking, and Twilio for notifications.
 
+### Day 40: Flight Club (Flight Deals v2) ✈️
+
+**Location**: `flight-deals-finder-v2/`
+
+An advanced flight tracker that handles stopovers and tracks user users. Features finding best deals and emailing all the users about the deals.
+
 ## 📈 Learning Progress
 
 ### Completed Projects:
@@ -149,6 +155,7 @@ A flight deal tracker that monitors prices and sends SMS/WhatsApp alerts when lo
 - ✅ **Day 37**: Habit Tracker - Pixela API-based habit tracking application with visual graphs, daily logging, and streak tracking
 - ✅ **Day 38**: Nutrition/Exercise Tracker - Workout tracking with natural language processing, Nutritionix API integration, and automated Google Sheets logging
 - ✅ **Day 39**: Flight Deals - Flight price tracker with Amadeus API, Google Sheets, and Twilio SMS notifications
+- ✅ **Day 40**: Flight Club - Advanced flight tracker with stopover search and email notifications
 
 ## 📁 Repository Structure
 
@@ -249,6 +256,13 @@ python-learning-projects/
 │   ├── .gitignore
 │   └── README.md
 ├── flight-deals-finder/         # Day 39: Flight Deals
+│   ├── main.py
+│   ├── data_manager.py
+│   ├── flight_search.py
+│   ├── flight_data.py
+│   ├── notification_manager.py
+│   └── README.md
+├── flight-deals-finder-v2/      # Day 40: Flight Club
 │   ├── main.py
 │   ├── data_manager.py
 │   ├── flight_search.py

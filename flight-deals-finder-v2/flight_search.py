@@ -55,7 +55,7 @@ class FlightSearch:
             return None
     
     
-    def search_flights_offers(self, origin_city_code, destination_city_code, from_date, to_date):
+    def search_flights_offers(self, origin_city_code, destination_city_code, from_date, to_date,currency_code="USD", is_direct= True):
         req_header = {"Authorization": f"Bearer {self._token}"}
         req_params = {
             "originLocationCode":origin_city_code,
@@ -63,8 +63,8 @@ class FlightSearch:
             "departureDate": from_date,
             "returnDate": to_date,
             "adults": 1,
-            "nonStop": "true",
-            "currencyCode": "USD",
+            "nonStop":"true" if is_direct else "false",
+            "currencyCode": currency_code,
             "max": "10",
         }
         res = requests.get(FLIGHT_OFFERS_ENDPOINT, headers=req_header, params=req_params )
