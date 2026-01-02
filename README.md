@@ -121,6 +121,12 @@ Habit tracking application using Pixela API to create visual activity graphs. Fe
 
 Workout logger using Natural Language Processing to track exercises in Google Sheets. Input activities in plain text to auto-calculate calories and duration.
 
+### Day 39: Flight Deals ✈️
+
+**Location**: `flight-deals-finder/`
+
+A flight deal tracker that monitors prices and sends SMS/WhatsApp alerts when low fares are found. Integrates Amadeus for flight data, Google Sheets for destination tracking, and Twilio for notifications.
+
 ## 📈 Learning Progress
 
 ### Completed Projects:
@@ -142,6 +148,7 @@ Workout logger using Natural Language Processing to track exercises in Google Sh
 - ✅ **Day 36**: Stock News Alert - Automated stock monitoring system with SMS alerts via Twilio and multi-API integration
 - ✅ **Day 37**: Habit Tracker - Pixela API-based habit tracking application with visual graphs, daily logging, and streak tracking
 - ✅ **Day 38**: Nutrition/Exercise Tracker - Workout tracking with natural language processing, Nutritionix API integration, and automated Google Sheets logging
+- ✅ **Day 39**: Flight Deals - Flight price tracker with Amadeus API, Google Sheets, and Twilio SMS notifications
 
 ## 📁 Repository Structure
 
@@ -240,6 +247,13 @@ python-learning-projects/
 │   ├── main.py
 │   ├── .env
 │   ├── .gitignore
+│   └── README.md
+├── flight-deals-finder/         # Day 39: Flight Deals
+│   ├── main.py
+│   ├── data_manager.py
+│   ├── flight_search.py
+│   ├── flight_data.py
+│   ├── notification_manager.py
 │   └── README.md
 ├── [future-project-folders]/   # Additional projects will be added here
 └── .gitignore                 # Git ignore file
