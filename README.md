@@ -133,29 +133,6 @@ A flight deal tracker that monitors prices and sends SMS/WhatsApp alerts when lo
 
 An advanced flight tracker that handles stopovers and tracks user users. Features finding best deals and emailing all the users about the deals.
 
-## 📈 Learning Progress
-
-### Completed Projects:
-
-- ✅ **Day 7**: Hangman Game - Word guessing game with ASCII art
-- ✅ **Day 8**: Caesar Cipher - Classic encryption/decryption with custom shift and ASCII art
-- ✅ **Day 10**: Blackjack Card Game - Command-line Blackjack with realistic rules and ASCII art
-- ✅ **Day 15**: Coffee Machine - Coffee machine simulator with payment system and resource management
-- ✅ **Day 16**: Coffee Machine v2 (OOP) - Enhanced OOP-based coffee machine with modular class design
-- ✅ **Day 17**: Quiz Game - Interactive quiz application with OOP design and score tracking
-- ✅ **Day 20**: Snake Game - Classic Snake game with Turtle graphics and OOP implementation
-- ✅ **Day 21**: Snake Game v2 (Enhanced) - Complete Snake game with food, scoring, and file persistence
-- ✅ **Day 22**: Pong Game - Classic two-player Pong game with Turtle graphics and collision detection
-- ✅ **Day 23**: Turtle Crossing Game - Frogger-inspired arcade game with level progression and collision detection
-- ✅ **Day 25**: India States Guessing Game - Interactive geography game adapted from US States version, featuring Turtle graphics and pandas data manipulation
-- ✅ **Day 31**: Flash Card App - French-English flashcard application with Tkinter GUI, auto-flip cards, and progress tracking
-- ✅ **Day 32**: Birthday Wisher - Automated birthday email sender with personalized templates and Gmail SMTP integration
-- ✅ **Day 34**: Quizzler App - GUI-based quiz application with API integration, Tkinter interface, and real-time trivia questions
-- ✅ **Day 36**: Stock News Alert - Automated stock monitoring system with SMS alerts via Twilio and multi-API integration
-- ✅ **Day 37**: Habit Tracker - Pixela API-based habit tracking application with visual graphs, daily logging, and streak tracking
-- ✅ **Day 38**: Nutrition/Exercise Tracker - Workout tracking with natural language processing, Nutritionix API integration, and automated Google Sheets logging
-- ✅ **Day 39**: Flight Deals - Flight price tracker with Amadeus API, Google Sheets, and Twilio SMS notifications
-- ✅ **Day 40**: Flight Club - Advanced flight tracker with stopover search and email notifications
 
 ## 📁 Repository Structure
 
