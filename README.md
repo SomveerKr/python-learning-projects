@@ -53,13 +53,13 @@ Enhanced OOP-based coffee machine simulator with modular design. Features separa
 
 **Location**: `quiz-game/`
 
-A command-line quiz application with True/False questions and real-time score tracking. Features modular OOP design with separate classes for Question, QuizBrain, and data management.
+Command-line True/False quiz app with real-time score tracking. Features modular OOP design with separate classes for logic and data.
 
 ### Day 20: Snake Game 🐍
 
 **Location**: `snake-game-v1/`
 
-A classic Snake game implementation using Python's Turtle graphics library. Features smooth movement, directional control with arrow keys, and collision prevention.
+Classic Snake game using Python's Turtle graphics. Features smooth movement, directional control, and collision prevention.
 
 ### Day 21: Snake Game v2 (Enhanced) 🐍
 
@@ -71,13 +71,13 @@ Enhanced Snake game with food spawning, score tracking, and high score persisten
 
 **Location**: `pong-game/`
 
-A classic two-player Pong game built using Python's Turtle graphics library. Features real-time ball and paddle movement, score tracking, and local multiplayer gameplay with collision detection.
+Classic two-player Pong game using Turtle graphics. Features real-time gameplay, score tracking, and local multiplayer with collision detection.
 
 ### Day 23: Turtle Crossing Game 🐢
 
 **Location**: `turtle-crossing-game/`
 
-A Frogger-inspired arcade game where the player helps a turtle cross a busy road filled with moving cars. Features level progression with increasing difficulty, collision detection, and score tracking.
+Frogger-inspired arcade game where players help a turtle cross a busy road. Features level progression, increasing difficulty, and collision detection.
 
 ### Day 25: India States Guessing Game 🗺️
 
@@ -89,7 +89,7 @@ Interactive geography game to guess Indian states on a map with visual feedback.
 
 **Location**: `flash-card/`
 
-A French-English flashcard application built with Tkinter featuring auto-flipping cards, progress tracking, and spaced repetition. Demonstrates GUI development, Pandas CSV handling, exception handling, and state management.
+French-English flashcard app with Tkinter and spaced repetition. Demonstrates GUI development, Pandas CSV handling, and state management.
 
 ### Day 32: Birthday Wisher 🎂
 
@@ -125,7 +125,7 @@ Workout logger using Natural Language Processing to track exercises in Google Sh
 
 **Location**: `flight-deals-finder/`
 
-A flight deal tracker that monitors prices and sends SMS/WhatsApp alerts when low fares are found. Integrates Amadeus for flight data, Google Sheets for destination tracking, and Twilio for notifications.
+Flight deal tracker that monitors prices and sends alerts for low fares. Integrates Amadeus, Google Sheets, and Twilio.
 
 ### Day 40: Flight Club (Flight Deals v2) ✈️
 
