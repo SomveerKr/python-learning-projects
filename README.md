@@ -133,6 +133,12 @@ Flight deal tracker that monitors prices and sends alerts for low fares. Integra
 
 An advanced flight tracker that handles stopovers and tracks user users. Features finding best deals and emailing all the users about the deals.
 
+### Day 46: Spotify Playlist Time Machine 🎵
+
+**Location**: `spotify-playlist-automation/`
+
+Scrapes Billboard Hot 100 for a specific date and creates a private Spotify playlist with those songs using the Spotify API.
+
 
 ## 📁 Repository Structure
 
@@ -245,6 +251,11 @@ python-learning-projects/
 │   ├── flight_search.py
 │   ├── flight_data.py
 │   ├── notification_manager.py
+│   └── README.md
+├── spotify-playlist-automation/ # Day 46: Spotify Playlist Time Machine
+│   ├── main.py
+│   ├── .env
+│   ├── .gitignore
 │   └── README.md
 ├── [future-project-folders]/   # Additional projects will be added here
 └── .gitignore                 # Git ignore file
