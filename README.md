@@ -140,6 +140,13 @@ An advanced flight tracker that handles stopovers and tracks user users. Feature
 Scrapes Billboard Hot 100 for a specific date and creates a private Spotify playlist with those songs using the Spotify API.
 
 
+
+### Day 47: Amazon Price Tracker 📉
+
+**Location**: `amazon-price-tracker/`
+
+Tracks product prices on Amazon.in using BeautifulSoup and sends email alerts when prices drop below a target.
+
 ## 📁 Repository Structure
 
 ```
@@ -256,6 +263,11 @@ python-learning-projects/
 │   ├── main.py
 │   ├── .env
 │   ├── .gitignore
+│   └── README.md
+├── amazon-price-tracker/        # Day 47: Amazon Price Tracker
+│   ├── bot.py
+│   ├── send_mail.py
+│   ├── .env
 │   └── README.md
 ├── [future-project-folders]/   # Additional projects will be added here
 └── .gitignore                 # Git ignore file
