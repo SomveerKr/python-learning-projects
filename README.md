@@ -153,6 +153,12 @@ Tracks product prices on Amazon.in using BeautifulSoup and sends email alerts wh
 
 A Python automation script that plays the Cookie Clicker game using Selenium. Features auto-clicking and intelligent store purchases.
 
+### Day 49: Gym Booking Automation 🏋️‍♂️
+
+**Location**: `gym-booking-automation/`
+
+Automated Selenium script to book gym classes or join waitlists. Targets specific time slots and includes login, booking verification, and session persistence.
+
 ## 📁 Repository Structure
 
 ```
@@ -277,6 +283,11 @@ python-learning-projects/
 │   └── README.md
 ├── cookie-clicker/              # Day 48: Cookie Clicker Bot
 │   ├── cookie_clicker.py
+│   └── README.md
+├── gym-booking-automation/      # Day 49: Gym Booking Automation
+│   ├── main.py
+│   ├── .env
+│   ├── .gitignore
 │   └── README.md
 ├── [future-project-folders]/   # Additional projects will be added here
 └── .gitignore                 # Git ignore file
