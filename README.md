@@ -147,6 +147,12 @@ Scrapes Billboard Hot 100 for a specific date and creates a private Spotify play
 
 Tracks product prices on Amazon.in using BeautifulSoup and sends email alerts when prices drop below a target.
 
+### Day 48: Cookie Clicker Bot 🍪
+
+**Location**: `cookie-clicker/`
+
+A Python automation script that plays the Cookie Clicker game using Selenium. Features auto-clicking and intelligent store purchases.
+
 ## 📁 Repository Structure
 
 ```
@@ -268,6 +274,9 @@ python-learning-projects/
 │   ├── bot.py
 │   ├── send_mail.py
 │   ├── .env
+│   └── README.md
+├── cookie-clicker/              # Day 48: Cookie Clicker Bot
+│   ├── cookie_clicker.py
 │   └── README.md
 ├── [future-project-folders]/   # Additional projects will be added here
 └── .gitignore                 # Git ignore file
