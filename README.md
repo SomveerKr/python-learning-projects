@@ -159,6 +159,12 @@ A Python automation script that plays the Cookie Clicker game using Selenium. Fe
 
 Automated Selenium script to book gym classes or join waitlists. Targets specific time slots and includes login, booking verification, and session persistence.
 
+### Day 50: Tinder Bot 💘
+
+**Location**: `day-50-tinder-bot/`
+
+Automated Tinder bot using Selenium. Currently pending Facebook account creation for login functionality.
+
 ## 📁 Repository Structure
 
 ```
@@ -287,6 +293,10 @@ python-learning-projects/
 ├── gym-booking-automation/      # Day 49: Gym Booking Automation
 │   ├── main.py
 │   ├── .env
+│   ├── .gitignore
+│   └── README.md
+├── day-50-tinder-bot/           # Day 50: Tinder Bot
+│   ├── main.py
 │   ├── .gitignore
 │   └── README.md
 ├── [future-project-folders]/   # Additional projects will be added here
