@@ -165,6 +165,12 @@ Automated Selenium script to book gym classes or join waitlists. Targets specifi
 
 Automated Tinder bot using Selenium. Currently pending Facebook account creation for login functionality.
 
+### Day 51: Internet Speed Twitter Complain Bot 🐦
+
+**Location**: `day-51-twitter-complain-bot/`
+
+Checks internet speed and tweets complaints if below promised speeds. Currently facing login issues with X.com.
+
 ## 📁 Repository Structure
 
 ```
@@ -296,6 +302,10 @@ python-learning-projects/
 │   ├── .gitignore
 │   └── README.md
 ├── day-50-tinder-bot/           # Day 50: Tinder Bot
+│   ├── main.py
+│   ├── .gitignore
+│   └── README.md
+├── day-51-twitter-complain-bot/ # Day 51: Internet Speed Twitter Complain Bot
 │   ├── main.py
 │   ├── .gitignore
 │   └── README.md
