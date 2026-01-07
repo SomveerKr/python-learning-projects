@@ -171,6 +171,12 @@ Automated Tinder bot using Selenium. Currently pending Facebook account creation
 
 Checks internet speed and tweets complaints if below promised speeds. Currently facing login issues with X.com.
 
+### Day 52: Instagram Follower Bot 🤖
+
+**Location**: `insta-follower-bot/`
+
+Automated Instagram bot using Selenium that follows users from a target account's followers list. Features secure login, smart scrolling, and error handling.
+
 ## 📁 Repository Structure
 
 ```
@@ -307,6 +313,11 @@ python-learning-projects/
 │   └── README.md
 ├── day-51-twitter-complain-bot/ # Day 51: Internet Speed Twitter Complain Bot
 │   ├── main.py
+│   ├── .gitignore
+│   └── README.md
+├── insta-follower-bot/          # Day 52: Instagram Follower Bot
+│   ├── main.py
+│   ├── .env
 │   ├── .gitignore
 │   └── README.md
 ├── [future-project-folders]/   # Additional projects will be added here
