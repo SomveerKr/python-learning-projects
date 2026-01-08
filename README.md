@@ -177,6 +177,12 @@ Checks internet speed and tweets complaints if below promised speeds. Currently 
 
 Automated Instagram bot using Selenium that follows users from a target account's followers list. Features secure login, smart scrolling, and error handling.
 
+### Day 53: Rent Researcher 🏠
+
+**Location**: `rent-researcher/`
+
+Scrapes Zillow rental listings using BeautifulSoup and automates Google Form submissions via Selenium. Streamlines property research with batch processing and data extraction.
+
 ## 📁 Repository Structure
 
 ```
@@ -316,6 +322,11 @@ python-learning-projects/
 │   ├── .gitignore
 │   └── README.md
 ├── insta-follower-bot/          # Day 52: Instagram Follower Bot
+│   ├── main.py
+│   ├── .env
+│   ├── .gitignore
+│   └── README.md
+├── rent-researcher/             # Day 53: Rent Researcher
 │   ├── main.py
 │   ├── .env
 │   ├── .gitignore
