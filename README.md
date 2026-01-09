@@ -183,6 +183,12 @@ Automated Instagram bot using Selenium that follows users from a target account'
 
 Scrapes Zillow rental listings using BeautifulSoup and automates Google Form submissions via Selenium. Streamlines property research with batch processing and data extraction.
 
+### Day 55: Flask Higher Lower Game 🎮
+
+**Location**: `flask-higher-lower-game/`
+
+Web-based number guessing game built with Flask featuring dynamic routing and visual feedback. Players guess numbers via URL navigation with color-coded messages and GIF animations.
+
 ## 📁 Repository Structure
 
 ```
@@ -330,6 +336,9 @@ python-learning-projects/
 │   ├── main.py
 │   ├── .env
 │   ├── .gitignore
+│   └── README.md
+├── flask-higher-lower-game/     # Day 55: Flask Higher Lower Game
+│   ├── game.py
 │   └── README.md
 ├── [future-project-folders]/   # Additional projects will be added here
 └── .gitignore                 # Git ignore file
