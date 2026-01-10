@@ -189,6 +189,12 @@ Scrapes Zillow rental listings using BeautifulSoup and automates Google Form sub
 
 Web-based number guessing game built with Flask featuring dynamic routing and visual feedback. Players guess numbers via URL navigation with color-coded messages and GIF animations.
 
+### Day 56: Personal Name Card Site 💼
+
+**Location**: `name-card-site/`
+
+Elegant personal portfolio website built with Flask and HTML5 UP's Identity template. Features responsive design, social media integration, and serves as a digital business card.
+
 ## 📁 Repository Structure
 
 ```
@@ -339,6 +345,14 @@ python-learning-projects/
 │   └── README.md
 ├── flask-higher-lower-game/     # Day 55: Flask Higher Lower Game
 │   ├── game.py
+│   └── README.md
+├── name-card-site/              # Day 56: Personal Name Card Site
+│   ├── server.py
+│   ├── templates/
+│   │   └── index.html
+│   ├── static/
+│   │   ├── assets/
+│   │   └── images/
 │   └── README.md
 ├── [future-project-folders]/   # Additional projects will be added here
 └── .gitignore                 # Git ignore file
