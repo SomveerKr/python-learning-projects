@@ -195,6 +195,12 @@ Web-based number guessing game built with Flask featuring dynamic routing and vi
 
 Elegant personal portfolio website built with Flask and HTML5 UP's Identity template. Features responsive design, social media integration, and serves as a digital business card.
 
+### Day 57: Jinja Templating Blog 📝
+
+**Location**: `jinja-templating-blog/`
+
+Dynamic blog application built with Flask and Jinja2 templating. Fetches blog posts from an external API and renders them using Jinja templates with individual post pages.
+
 ## 📁 Repository Structure
 
 ```
@@ -353,6 +359,16 @@ python-learning-projects/
 │   ├── static/
 │   │   ├── assets/
 │   │   └── images/
+│   └── README.md
+├── jinja-templating-blog/       # Day 57: Jinja Templating Blog
+│   ├── main.py
+│   ├── post.py
+│   ├── templates/
+│   │   ├── index.html
+│   │   └── post.html
+│   ├── static/
+│   │   └── css/
+│   │       └── styles.css
 │   └── README.md
 ├── [future-project-folders]/   # Additional projects will be added here
 └── .gitignore                 # Git ignore file
