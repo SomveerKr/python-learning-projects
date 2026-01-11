@@ -201,7 +201,13 @@ Elegant personal portfolio website built with Flask and HTML5 UP's Identity temp
 
 Dynamic blog application built with Flask and Jinja2 templating. Fetches blog posts from an external API and renders them using Jinja templates with individual post pages.
 
-## 📁 Repository Structure
+### Day 58: TinDog �
+
+**Location**: `tindog/`
+
+Modern responsive landing page for a dog dating app built with Bootstrap 5. Features animated gradient backgrounds, pricing tiers, testimonials, and mobile-first design.
+
+## �📁 Repository Structure
 
 ```
 python-learning-projects/
@@ -369,6 +375,14 @@ python-learning-projects/
 │   ├── static/
 │   │   └── css/
 │   │       └── styles.css
+│   └── README.md
+├── tindog/                      # Day 58: TinDog
+│   ├── index.html
+│   ├── css/
+│   │   ├── solution.css
+│   │   └── style.css
+│   ├── images/
+│   ├── goal images/
 │   └── README.md
 ├── [future-project-folders]/   # Additional projects will be added here
 └── .gitignore                 # Git ignore file
