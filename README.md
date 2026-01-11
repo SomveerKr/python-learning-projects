@@ -207,6 +207,12 @@ Dynamic blog application built with Flask and Jinja2 templating. Fetches blog po
 
 Modern responsive landing page for a dog dating app built with Bootstrap 5. Features animated gradient backgrounds, pricing tiers, testimonials, and mobile-first design.
 
+### Day 59: Upgraded Blog 📰
+
+**Location**: `upgraded_blog/`
+
+Modern responsive blog application built with Flask and Jinja2 templating. Features dynamic content from external API, multiple pages (home, about, contact), and template inheritance.
+
 ## �📁 Repository Structure
 
 ```
@@ -383,6 +389,20 @@ python-learning-projects/
 │   │   └── style.css
 │   ├── images/
 │   ├── goal images/
+│   └── README.md
+├── upgraded_blog/               # Day 59: Upgraded Blog
+│   ├── server.py
+│   ├── templates/
+│   │   ├── header.html
+│   │   ├── footer.html
+│   │   ├── index.html
+│   │   ├── post.html
+│   │   ├── about.html
+│   │   └── contact.html
+│   ├── static/
+│   │   ├── assets/
+│   │   ├── css/
+│   │   └── js/
 │   └── README.md
 ├── [future-project-folders]/   # Additional projects will be added here
 └── .gitignore                 # Git ignore file
