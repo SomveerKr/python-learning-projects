@@ -213,7 +213,19 @@ Modern responsive landing page for a dog dating app built with Bootstrap 5. Feat
 
 Modern responsive blog application built with Flask and Jinja2 templating. Features dynamic content from external API, multiple pages (home, about, contact), and template inheritance.
 
-## �📁 Repository Structure
+### Day 60: Blog with Contact Form - Flask Application 📧
+
+**Location**: `blog_contact_form_flask/`
+
+A Flask blog application displaying posts from an external API, featuring a functional contact form with email notification capabilities.
+
+### Day 61: Advanced Forms with Flask-WTF 📝
+
+**Location**: `flask-advanced-forms/`
+
+Flask web application demonstrating advanced form handling with Flask-WTF and WTForms validators. Features secure form validation, CSRF protection, email validation, and Bootstrap 5 integration.
+
+## 📁 Repository Structure
 
 ```
 python-learning-projects/
@@ -403,6 +415,32 @@ python-learning-projects/
 │   │   ├── assets/
 │   │   ├── css/
 │   │   └── js/
+│   └── README.md
+├── blog_contact_form_flask/     # Day 60: Blog with Contact Form
+│   ├── main.py
+│   ├── templates/
+│   │   ├── header.html
+│   │   ├── footer.html
+│   │   ├── index.html
+│   │   ├── post.html
+│   │   ├── about.html
+│   │   └── contact.html
+│   ├── static/
+│   │   ├── assets/
+│   │   ├── css/
+│   │   └── js/
+│   ├── .env
+│   ├── .gitignore
+│   └── README.md
+├── flask-advanced-forms/        # Day 61: Advanced Forms with Flask-WTF
+│   ├── main.py
+│   ├── requirements.txt
+│   ├── templates/
+│   │   ├── base.html
+│   │   ├── index.html
+│   │   ├── login.html
+│   │   ├── success.html
+│   │   └── denied.html
 │   └── README.md
 ├── [future-project-folders]/   # Additional projects will be added here
 └── .gitignore                 # Git ignore file
