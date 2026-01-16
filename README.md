@@ -225,6 +225,12 @@ A Flask blog application displaying posts from an external API, featuring a func
 
 Flask web application demonstrating advanced form handling with Flask-WTF and WTForms validators. Features secure form validation, CSRF protection, email validation, and Bootstrap 5 integration.
 
+### Day 62: Coffee & WiFi ☕
+
+**Location**: `coffee-and-wifi/`
+
+A Flask web application for discovering and sharing cafes with WiFi and power outlets. Features an interactive form to add cafes with ratings for coffee quality, WiFi strength, and power socket availability.
+
 ## 📁 Repository Structure
 
 ```
@@ -441,6 +447,18 @@ python-learning-projects/
 │   │   ├── login.html
 │   │   ├── success.html
 │   │   └── denied.html
+│   └── README.md
+├── coffee-and-wifi/             # Day 62: Coffee & WiFi
+│   ├── main.py
+│   ├── cafe-data.csv
+│   ├── requirements.txt
+│   ├── static/
+│   │   └── css/
+│   ├── templates/
+│   │   ├── base.html
+│   │   ├── index.html
+│   │   ├── add.html
+│   │   └── cafes.html
 │   └── README.md
 ├── [future-project-folders]/   # Additional projects will be added here
 └── .gitignore                 # Git ignore file
