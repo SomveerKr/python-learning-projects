@@ -231,13 +231,19 @@ Flask web application demonstrating advanced form handling with Flask-WTF and WT
 
 A Flask web application for discovering and sharing cafes with WiFi and power outlets. Features an interactive form to add cafes with ratings for coffee quality, WiFi strength, and power socket availability.
 
-### Day 63: Library Management System �
+### Day 63: Library Management System 📚
 
 **Location**: `library-project/`
 
 A Flask web application for managing a personal book collection with SQLAlchemy ORM. Features CRUD operations for books including adding new books, viewing the library, and editing ratings with persistent SQLite database storage.
 
-## �📁 Repository Structure
+### Day 64: Top 10 Movies 🎬
+
+**Location**: `top-movies/`
+
+A Flask web application for managing your personal top 10 movies list with TMDB API integration. Features movie search, automatic data fetching, dynamic ranking based on ratings, and an interactive flip card UI design.
+
+## 📁 Repository Structure
 
 ```
 python-learning-projects/
@@ -475,6 +481,24 @@ python-learning-projects/
 │       ├── index.html
 │       ├── add.html
 │       └── edit_rating.html
+│   └── README.md
+├── top-movies/                  # Day 64: Top 10 Movies
+│   ├── main.py
+│   ├── tmdb.py
+│   ├── requirements.txt
+│   ├── .env
+│   ├── .gitignore
+│   ├── instance/
+│   │   └── movies.db
+│   ├── templates/
+│   │   ├── base.html
+│   │   ├── index.html
+│   │   ├── add.html
+│   │   ├── select.html
+│   │   └── edit.html
+│   ├── static/
+│   │   └── css/
+│   │       └── styles.css
 │   └── README.md
 ├── [future-project-folders]/   # Additional projects will be added here
 └── .gitignore                 # Git ignore file
