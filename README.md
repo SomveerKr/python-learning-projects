@@ -231,7 +231,13 @@ Flask web application demonstrating advanced form handling with Flask-WTF and WT
 
 A Flask web application for discovering and sharing cafes with WiFi and power outlets. Features an interactive form to add cafes with ratings for coffee quality, WiFi strength, and power socket availability.
 
-## 📁 Repository Structure
+### Day 63: Library Management System �
+
+**Location**: `library-project/`
+
+A Flask web application for managing a personal book collection with SQLAlchemy ORM. Features CRUD operations for books including adding new books, viewing the library, and editing ratings with persistent SQLite database storage.
+
+## �📁 Repository Structure
 
 ```
 python-learning-projects/
@@ -459,6 +465,16 @@ python-learning-projects/
 │   │   ├── index.html
 │   │   ├── add.html
 │   │   └── cafes.html
+│   └── README.md
+├── library-project/             # Day 63: Library Management System
+│   ├── main.py
+│   ├── requirements.txt
+│   ├── instance/
+│   │   └── books_rating.db
+│   └── templates/
+│       ├── index.html
+│       ├── add.html
+│       └── edit_rating.html
 │   └── README.md
 ├── [future-project-folders]/   # Additional projects will be added here
 └── .gitignore                 # Git ignore file
