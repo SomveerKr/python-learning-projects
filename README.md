@@ -243,6 +243,12 @@ A Flask web application for managing a personal book collection with SQLAlchemy 
 
 A Flask web application for managing your personal top 10 movies list with TMDB API integration. Features movie search, automatic data fetching, dynamic ranking based on ratings, and an interactive flip card UI design.
 
+### Day 66: Cafe & WiFi API ☕
+
+**Location**: `cafe-api/`
+
+A RESTful API built with Flask and SQLAlchemy for managing cafe information including amenities like WiFi, power sockets, and workspace suitability. Features CRUD operations, location-based search, and API key authentication for secure deletions.
+
 ## 📁 Repository Structure
 
 ```
@@ -499,6 +505,13 @@ python-learning-projects/
 │   ├── static/
 │   │   └── css/
 │   │       └── styles.css
+│   └── README.md
+├── cafe-api/                    # Day 66: Cafe & WiFi API
+│   ├── main.py
+│   ├── instance/
+│   │   └── cafes.db
+│   ├── templates/
+│   │   └── index.html
 │   └── README.md
 ├── [future-project-folders]/   # Additional projects will be added here
 └── .gitignore                 # Git ignore file
