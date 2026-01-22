@@ -26,7 +26,7 @@ A full-featured blog application built with Flask that allows users to create, r
 ## Project Structure
 
 ```
-upgraded-blog/
+upgraded-blog-with-db/
 ├── instance/
 │   └── posts.db              # SQLite database file
 ├── static/
@@ -49,7 +49,7 @@ upgraded-blog/
 
 1. **Clone the repository** (or navigate to the project directory):
    ```bash
-   cd upgraded-blog
+   cd upgraded-blog-with-db
    ```
 
 2. **Create a virtual environment**:

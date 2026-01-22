@@ -249,7 +249,13 @@ A Flask web application for managing your personal top 10 movies list with TMDB 
 
 A RESTful API built with Flask and SQLAlchemy for managing cafe information including amenities like WiFi, power sockets, and workspace suitability. Features CRUD operations, location-based search, and API key authentication for secure deletions.
 
-## 📁 Repository Structure
+### Day 67: Upgraded Blog with Database �
+
+**Location**: `upgraded-blog-with-db/`
+
+A full-featured blog application built with Flask and SQLAlchemy featuring complete CRUD operations for blog posts. Includes CKEditor for rich text editing, Bootstrap 5 for responsive design, and SQLite database for persistent storage.
+
+## �📁 Repository Structure
 
 ```
 python-learning-projects/
@@ -512,6 +518,24 @@ python-learning-projects/
 │   │   └── cafes.db
 │   ├── templates/
 │   │   └── index.html
+│   └── README.md
+├── upgraded-blog-with-db/       # Day 67: Upgraded Blog with Database
+│   ├── main.py
+│   ├── requirements.txt
+│   ├── instance/
+│   │   └── posts.db
+│   ├── templates/
+│   │   ├── header.html
+│   │   ├── footer.html
+│   │   ├── index.html
+│   │   ├── post.html
+│   │   ├── make-post.html
+│   │   ├── about.html
+│   │   └── contact.html
+│   ├── static/
+│   │   ├── assets/
+│   │   ├── css/
+│   │   └── js/
 │   └── README.md
 ├── [future-project-folders]/   # Additional projects will be added here
 └── .gitignore                 # Git ignore file
