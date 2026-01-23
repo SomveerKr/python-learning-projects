@@ -255,6 +255,13 @@ A RESTful API built with Flask and SQLAlchemy for managing cafe information incl
 
 A full-featured blog application built with Flask and SQLAlchemy featuring complete CRUD operations for blog posts. Includes CKEditor for rich text editing, Bootstrap 5 for responsive design, and SQLite database for persistent storage.
 
+
+### Day 68: Flask Authentication 🔐
+
+**Location**: `flask-auth/`
+
+A secure Flask web application demonstrating user authentication with registration, login, and protected routes. Implements password hashing, session management with Flask-Login, and access control for protected file downloads.
+
 ## �📁 Repository Structure
 
 ```
@@ -536,6 +543,21 @@ python-learning-projects/
 │   │   ├── assets/
 │   │   ├── css/
 │   │   └── js/
+│   └── README.md
+├── flask-auth/                  # Day 68: Flask Authentication
+│   ├── main.py
+│   ├── instance/
+│   │   └── users.db
+│   ├── templates/
+│   │   ├── base.html
+│   │   ├── index.html
+│   │   ├── register.html
+│   │   ├── login.html
+│   │   └── secrets.html
+│   ├── static/
+│   │   ├── css/
+│   │   └── files/
+│   │       └── cheat_sheet.pdf
 │   └── README.md
 ├── [future-project-folders]/   # Additional projects will be added here
 └── .gitignore                 # Git ignore file
