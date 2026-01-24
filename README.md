@@ -257,12 +257,17 @@ A full-featured blog application built with Flask and SQLAlchemy featuring compl
 
 
 ### Day 68: Flask Authentication 🔐
-
 **Location**: `flask-auth/`
 
 A secure Flask web application demonstrating user authentication with registration, login, and protected routes. Implements password hashing, session management with Flask-Login, and access control for protected file downloads.
 
-## �📁 Repository Structure
+### Day 69: Blog with Users 👥
+
+**Location**: `blog-with-users/`
+
+A full-featured Flask blog application with user authentication, role-based access control, and commenting functionality. Features admin-only post management, Gravatar integration for user avatars, and a rich text editor for blog content.
+
+## 📁 Repository Structure
 
 ```
 python-learning-projects/
@@ -558,6 +563,29 @@ python-learning-projects/
 │   │   ├── css/
 │   │   └── files/
 │   │       └── cheat_sheet.pdf
+│   └── README.md
+├── blog-with-users/             # Day 69: Blog with Users
+│   ├── main.py
+│   ├── forms.py
+│   ├── requirements.txt
+│   ├── .env
+│   ├── .gitignore
+│   ├── instance/
+│   │   └── posts.db
+│   ├── templates/
+│   │   ├── header.html
+│   │   ├── footer.html
+│   │   ├── index.html
+│   │   ├── post.html
+│   │   ├── make-post.html
+│   │   ├── register.html
+│   │   ├── login.html
+│   │   ├── about.html
+│   │   └── contact.html
+│   ├── static/
+│   │   ├── assets/
+│   │   ├── css/
+│   │   └── js/
 │   └── README.md
 ├── [future-project-folders]/   # Additional projects will be added here
 └── .gitignore                 # Git ignore file
