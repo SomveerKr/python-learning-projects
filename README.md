@@ -267,6 +267,12 @@ A secure Flask web application demonstrating user authentication with registrati
 
 A full-featured Flask blog application with user authentication, role-based access control, and commenting functionality. Features admin-only post management, Gravatar integration for user avatars, and a rich text editor for blog content.
 
+### Day 72: College Majors & Salary Analysis 📊
+
+**Location**: `college-majors-salary/`
+
+Data analysis project exploring the relationship between college majors and salary outcomes using Pandas. Analyzes 50 undergraduate majors to identify highest/lowest earners, salary spread risk, and compares STEM, Business, and HASS groups.
+
 ## 📁 Repository Structure
 
 ```
@@ -586,6 +592,10 @@ python-learning-projects/
 │   │   ├── assets/
 │   │   ├── css/
 │   │   └── js/
+│   └── README.md
+├── college-majors-salary/       # Day 72: College Majors & Salary Analysis
+│   ├── salaries_by_college_major.csv
+│   ├── salaries_by_college_major.ipynb
 │   └── README.md
 ├── [future-project-folders]/   # Additional projects will be added here
 └── .gitignore                 # Git ignore file
