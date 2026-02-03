@@ -273,6 +273,12 @@ A full-featured Flask blog application with user authentication, role-based acce
 
 Data analysis project exploring the relationship between college majors and salary outcomes using Pandas. Analyzes 50 undergraduate majors to identify highest/lowest earners, salary spread risk, and compares STEM, Business, and HASS groups.
 
+### Day 73: Programming Languages Popularity 📈
+
+**Location**: `programming-languages-popularity/`
+
+Data visualization project analyzing programming language popularity trends on Stack Overflow from 2008 to 2020. Tracks 14 major languages using time series analysis and creates comprehensive visualizations revealing technology adoption patterns.
+
 ## 📁 Repository Structure
 
 ```
@@ -596,6 +602,10 @@ python-learning-projects/
 ├── college-majors-salary/       # Day 72: College Majors & Salary Analysis
 │   ├── salaries_by_college_major.csv
 │   ├── salaries_by_college_major.ipynb
+│   └── README.md
+├── programming-languages-popularity/ # Day 73: Programming Languages Popularity
+│   ├── Programming_Languages.ipynb
+│   ├── QueryResults.csv
 │   └── README.md
 ├── [future-project-folders]/   # Additional projects will be added here
 └── .gitignore                 # Git ignore file
