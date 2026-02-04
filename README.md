@@ -279,6 +279,12 @@ Data analysis project exploring the relationship between college majors and sala
 
 Data visualization project analyzing programming language popularity trends on Stack Overflow from 2008 to 2020. Tracks 14 major languages using time series analysis and creates comprehensive visualizations revealing technology adoption patterns.
 
+### Day 74: LEGO Data Analysis 🧱
+
+**Location**: `lego-data-analysis/`
+
+Comprehensive data analysis exploring LEGO's history and evolution from 1949 to 2021 using Pandas and Matplotlib. Analyzes 15,710 sets to uncover insights about product growth, themes, colors, and the increasing complexity of LEGO sets over time.
+
 ## 📁 Repository Structure
 
 ```
@@ -606,6 +612,14 @@ python-learning-projects/
 ├── programming-languages-popularity/ # Day 73: Programming Languages Popularity
 │   ├── Programming_Languages.ipynb
 │   ├── QueryResults.csv
+│   └── README.md
+├── lego-data-analysis/         # Day 74: LEGO Data Analysis
+│   ├── Lego_Analysis.ipynb
+│   ├── data/
+│   │   ├── colors.csv
+│   │   ├── sets.csv
+│   │   └── themes.csv
+│   ├── assets/
 │   └── README.md
 ├── [future-project-folders]/   # Additional projects will be added here
 └── .gitignore                 # Git ignore file
