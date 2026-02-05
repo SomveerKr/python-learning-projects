@@ -285,6 +285,12 @@ Data visualization project analyzing programming language popularity trends on S
 
 Comprehensive data analysis exploring LEGO's history and evolution from 1949 to 2021 using Pandas and Matplotlib. Analyzes 15,710 sets to uncover insights about product growth, themes, colors, and the increasing complexity of LEGO sets over time.
 
+### Day 75: Google Trends Visualization 📊
+
+**Location**: `google-trends-visualization/`
+
+Data analysis project exploring correlations between Google search trends and real-world metrics including Tesla stock prices, Bitcoin values, and unemployment rates. Features time series analysis, data resampling, and dual-axis visualizations comparing search popularity with economic indicators.
+
 ## 📁 Repository Structure
 
 ```
@@ -620,6 +626,14 @@ python-learning-projects/
 │   │   ├── sets.csv
 │   │   └── themes.csv
 │   ├── assets/
+│   └── README.md
+├── google-trends-visualization/ # Day 75: Google Trends Visualization
+│   ├── Google Trends and Data Visualisation.ipynb
+│   ├── TESLA Search Trend vs Price.csv
+│   ├── Bitcoin Search Trend.csv
+│   ├── Daily Bitcoin Price.csv
+│   ├── UE Benefits Search vs UE Rate 2004-19.csv
+│   ├── UE Benefits Search vs UE Rate 2004-20.csv
 │   └── README.md
 ├── [future-project-folders]/   # Additional projects will be added here
 └── .gitignore                 # Git ignore file
