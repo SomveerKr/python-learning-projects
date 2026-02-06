@@ -291,6 +291,12 @@ Comprehensive data analysis exploring LEGO's history and evolution from 1949 to 
 
 Data analysis project exploring correlations between Google search trends and real-world metrics including Tesla stock prices, Bitcoin values, and unemployment rates. Features time series analysis, data resampling, and dual-axis visualizations comparing search popularity with economic indicators.
 
+### Day 76: Google Play Store App Analytics 📱
+
+**Location**: `google-play-store-data-analysis/`
+
+Data analysis project exploring the Android app market. Analyzes over 10,000 apps to identify trends in ratings, installs, sizing, and pricing using Pandas and Plotly to gain insights into the mobile app ecosystem.
+
 ## 📁 Repository Structure
 
 ```
@@ -634,6 +640,10 @@ python-learning-projects/
 │   ├── Daily Bitcoin Price.csv
 │   ├── UE Benefits Search vs UE Rate 2004-19.csv
 │   ├── UE Benefits Search vs UE Rate 2004-20.csv
+│   └── README.md
+├── google-play-store-data-analysis/ # Day 76: Google Play Store App Analytics
+│   ├── Google Play Store App Analytics.ipynb
+│   ├── apps.csv
 │   └── README.md
 ├── [future-project-folders]/   # Additional projects will be added here
 └── .gitignore                 # Git ignore file
