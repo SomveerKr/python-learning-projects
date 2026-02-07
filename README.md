@@ -297,6 +297,12 @@ Data analysis project exploring correlations between Google search trends and re
 
 Data analysis project exploring the Android app market. Analyzes over 10,000 apps to identify trends in ratings, installs, sizing, and pricing using Pandas and Plotly to gain insights into the mobile app ecosystem.
 
+### Day 77: Computation with NumPy and N-Dimensional Arrays 🧮
+
+**Location**: `advanced-computation/`
+
+Focuses on learning numerical computing using NumPy, covering N-dimensional arrays (tensors), array generation, manipulation, and practical applications like image processing.
+
 ## 📁 Repository Structure
 
 ```
@@ -644,6 +650,10 @@ python-learning-projects/
 ├── google-play-store-data-analysis/ # Day 76: Google Play Store App Analytics
 │   ├── Google Play Store App Analytics.ipynb
 │   ├── apps.csv
+│   └── README.md
+├── advanced-computation/        # Day 77: Computation with NumPy
+│   ├── Computation_with_NumPy_and_N_Dimensional_Array.ipynb
+│   ├── yummy_macarons.jpg
 │   └── README.md
 ├── [future-project-folders]/   # Additional projects will be added here
 └── .gitignore                 # Git ignore file
