@@ -303,6 +303,12 @@ Data analysis project exploring the Android app market. Analyzes over 10,000 app
 
 Focuses on learning numerical computing using NumPy, covering N-dimensional arrays (tensors), array generation, manipulation, and practical applications like image processing.
 
+### Day 78: Seaborn and Linear Regression 📈
+
+**Location**: `seaborn-linear-regression/`
+
+Analyzes the relationship between film budgets and box office revenue. Investigates whether higher film budgets lead to higher box office returns using linear regression and data visualization with Seaborn.
+
 ## 📁 Repository Structure
 
 ```
@@ -654,6 +660,10 @@ python-learning-projects/
 ├── advanced-computation/        # Day 77: Computation with NumPy
 │   ├── Computation_with_NumPy_and_N_Dimensional_Array.ipynb
 │   ├── yummy_macarons.jpg
+│   └── README.md
+├── seaborn-linear-regression/   # Day 78: Seaborn and Linear Regression
+│   ├── Seaborn_and_Linear_Regression_(start).ipynb
+│   ├── cost_revenue_dirty.csv
 │   └── README.md
 ├── [future-project-folders]/   # Additional projects will be added here
 └── .gitignore                 # Git ignore file
