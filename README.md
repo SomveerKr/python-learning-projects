@@ -309,6 +309,12 @@ Focuses on learning numerical computing using NumPy, covering N-dimensional arra
 
 Analyzes the relationship between film budgets and box office revenue. Investigates whether higher film budgets lead to higher box office returns using linear regression and data visualization with Seaborn.
 
+### Day 79: Nobel Prize Analysis 🏆
+
+**Location**: `nobel-prize-analysis/`
+
+Provides a comprehensive analysis of the Nobel Prize dataset, exploring trends in awards over time. Includes visualizations of prize distribution by category, gender, and country, as well as insights into age patterns and historical events.
+
 ## 📁 Repository Structure
 
 ```
@@ -664,6 +670,10 @@ python-learning-projects/
 ├── seaborn-linear-regression/   # Day 78: Seaborn and Linear Regression
 │   ├── Seaborn_and_Linear_Regression_(start).ipynb
 │   ├── cost_revenue_dirty.csv
+│   └── README.md
+├── nobel-prize-analysis/        # Day 79: Nobel Prize Analysis
+│   ├── Nobel_Prize_Analysis.ipynb
+│   ├── nobel_prize_data.csv
 │   └── README.md
 ├── [future-project-folders]/   # Additional projects will be added here
 └── .gitignore                 # Git ignore file
