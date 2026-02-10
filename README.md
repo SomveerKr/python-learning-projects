@@ -315,6 +315,12 @@ Analyzes the relationship between film budgets and box office revenue. Investiga
 
 Provides a comprehensive analysis of the Nobel Prize dataset, exploring trends in awards over time. Includes visualizations of prize distribution by category, gender, and country, as well as insights into age patterns and historical events.
 
+### Day 80: t-Tests and Distributions 🧼
+
+**Location**: `t-Tests-and-distribution/`
+
+Analyzes the historical data regarding Dr. Ignaz Semmelweis's discovery of the importance of handwashing. Uses t-tests and probability distributions to statistically demonstrate the significant reduction in mortality rates after implementing handwashing protocols at the Vienna General Hospital.
+
 ## 📁 Repository Structure
 
 ```
@@ -674,6 +680,11 @@ python-learning-projects/
 ├── nobel-prize-analysis/        # Day 79: Nobel Prize Analysis
 │   ├── Nobel_Prize_Analysis.ipynb
 │   ├── nobel_prize_data.csv
+│   └── README.md
+├── t-Tests-and-distribution/    # Day 80: t-Tests and Distributions
+│   ├── Dr_Semmelweis_Handwashing_Discovery.ipynb
+│   ├── annual_deaths_by_clinic.csv
+│   ├── monthly_deaths.csv
 │   └── README.md
 ├── [future-project-folders]/   # Additional projects will be added here
 └── .gitignore                 # Git ignore file
