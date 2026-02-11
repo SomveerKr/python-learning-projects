@@ -321,6 +321,13 @@ Provides a comprehensive analysis of the Nobel Prize dataset, exploring trends i
 
 Analyzes the historical data regarding Dr. Ignaz Semmelweis's discovery of the importance of handwashing. Uses t-tests and probability distributions to statistically demonstrate the significant reduction in mortality rates after implementing handwashing protocols at the Vienna General Hospital.
 
+
+### Day 81: Predicting House Prices 🏠
+
+**Location**: `predicting-house-prices/`
+
+Builds a multivariable regression model to estimate house prices in Boston. Features data exploration, visualization with Seaborn/Plotly, and model evaluation using Scikit-Learn.
+
 ## 📁 Repository Structure
 
 ```
@@ -685,6 +692,10 @@ python-learning-projects/
 │   ├── Dr_Semmelweis_Handwashing_Discovery.ipynb
 │   ├── annual_deaths_by_clinic.csv
 │   ├── monthly_deaths.csv
+│   └── README.md
+├── predicting-house-prices/     # Day 81: Predicting House Prices
+│   ├── Multivariable_Regression_and_Valuation_Model.ipynb
+│   ├── boston.csv
 │   └── README.md
 ├── [future-project-folders]/   # Additional projects will be added here
 └── .gitignore                 # Git ignore file
