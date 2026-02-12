@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Morse Code Translator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:wght@300;400;600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1 class="title">⚡ Morse Code Translator</h1>
+            <p class="subtitle">Convert text to morse code and back</p>
+        </header>
+
+        <div class="mode-selector">
+            <button class="mode-btn active" data-mode="encode">
+                <span class="icon">📝</span>
+                Text to Morse
+            </button>
+            <button class="mode-btn" data-mode="decode">
+                <span class="icon">🔓</span>
+                Morse to Text
+            </button>
+        </div>
+
+        <div class="converter-card">
+            <div class="input-section">
+                <label for="inputText" class="label" id="inputLabel">Enter Text:</label>
+                <textarea id="inputText" class="input-area" placeholder="Type your message here..." rows="6"></textarea>
+            </div>
+
+            <button class="convert-btn" id="convertBtn">
+                <span class="btn-text">Convert</span>
+                <span class="btn-icon">→</span>
+            </button>
+
+            <div class="output-section">
+                <label class="label">Result:</label>
+                <div id="output" class="output-area">
+                    <span class="placeholder-text">Your converted text will appear here...</span>
+                </div>
+                <button class="copy-btn" id="copyBtn" style="display: none;">
+                    <span class="copy-icon">📋</span>
+                    Copy
+                </button>
+            </div>
+        </div>
+
+        <div class="info-card">
+            <h3>📖 How to Use</h3>
+            <ul>
+                <li><strong>Text to Morse:</strong> Type any text and click Convert to see the morse code</li>
+                <li><strong>Morse to Text:</strong> Enter morse code with spaces between characters (use / for word
+                    spaces)</li>
+                <li><strong>Example:</strong> ".... . .-.. .-.. --- / .-- --- .-. .-.. -.." = "hello world"</li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+
+</html>
