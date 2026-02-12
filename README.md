@@ -328,6 +328,12 @@ Analyzes the historical data regarding Dr. Ignaz Semmelweis's discovery of the i
 
 Builds a multivariable regression model to estimate house prices in Boston. Features data exploration, visualization with Seaborn/Plotly, and model evaluation using Scikit-Learn.
 
+### Day 82: Morse Code Converter 📡
+
+**Location**: `morse-code/`
+
+A web-based text-to-Morse code converter built with Flask. Features real-time encoding/decoding, support for special characters, and a clean user interface.
+
 ## 📁 Repository Structure
 
 ```
@@ -696,6 +702,11 @@ python-learning-projects/
 ├── predicting-house-prices/     # Day 81: Predicting House Prices
 │   ├── Multivariable_Regression_and_Valuation_Model.ipynb
 │   ├── boston.csv
+│   └── README.md
+├── morse-code/                  # Day 82: Morse Code Converter
+│   ├── app.py
+│   ├── templates/
+│   ├── static/
 │   └── README.md
 ├── [future-project-folders]/   # Additional projects will be added here
 └── .gitignore                 # Git ignore file
