@@ -334,6 +334,12 @@ Builds a multivariable regression model to estimate house prices in Boston. Feat
 
 A web-based text-to-Morse code converter built with Flask. Features real-time encoding/decoding, support for special characters, and a clean user interface.
 
+### Day 84: Tic Tac Toe ⭕❌
+
+**Location**: `tic-tac-toe/`
+
+A simple command-line Tic-Tac-Toe game for two players. Features a 3x3 grid, win detection across rows, columns, and diagonals, and a draw condition. It allows players to input moves via row and column coordinates.
+
 ## 📁 Repository Structure
 
 ```
@@ -707,6 +713,9 @@ python-learning-projects/
 │   ├── app.py
 │   ├── templates/
 │   ├── static/
+│   └── README.md
+├── tic-tac-toe/                 # Day 84: Tic Tac Toe
+│   ├── main.py
 │   └── README.md
 ├── [future-project-folders]/   # Additional projects will be added here
 └── .gitignore                 # Git ignore file
